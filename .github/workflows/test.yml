@@ -18,6 +18,7 @@ jobs:
             - name : echo stuff
               run: |
                 echo "stuff"
+                sleep 60
 
     prod-test:
         environment: prod
